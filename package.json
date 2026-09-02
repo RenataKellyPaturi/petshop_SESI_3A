@@ -1,0 +1,27 @@
+{
+  "name": "petshop_sesi_3a",
+  "version": "1.0.0",
+  "description": "📋 Pré-requisitos\r Antes de iniciar, certifique-se de ter as seguintes ferramentas instaladas na sua máquina:",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RenataKellyPaturi/petshop_SESI_3A.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RenataKellyPaturi/petshop_SESI_3A/issues"
+  },
+  "homepage": "https://github.com/RenataKellyPaturi/petshop_SESI_3A#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mysql2": "^3.24.2"
+  }
+}
