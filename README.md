@@ -42,3 +42,17 @@ Para criar uma imagem do MySQL pré-configurada (que cria o banco de dados e as 
 
 1️⃣ Crie o arquivo de inicialização SQL (init.sql)
 Crie o arquivo init.sql no seu diretório:
+create table usuarios (
+	id Int auto_increment primary key,
+	email varchar(100) not null unique,
+	senha varchar(100) not null,
+	criado_em timestamp default CURRENT_TIMESTAMP
+);
+
+insert into usuarios (email, senha) 
+values 
+	('admin@empresa.com', 'admin123'),
+	('maria@teste.com', 'senha123'),
+	('joao@teste.com', 'admin456');
+
+SELECT * from usuarios;
